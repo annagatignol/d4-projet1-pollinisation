@@ -1,0 +1,22 @@
+h1{
+font-size: 3em;
+padding: 1em;
+margin-top: 0;
+margin-bottom: 2.5em;
+text-align: center;
+background-color: rgb(255, 215, 0);
+}
+.output {
+    background: #eee;
+    position: relative;
+}
+video{
+  padding-left: 50px;
+  padding-bottom: 50px;
+
+}
+ul{list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
