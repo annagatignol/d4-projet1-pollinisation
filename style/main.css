@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP|Roboto+Slab|Source+Sans+Pro|Work+Sans');
+
+body{
+  font-family: 'Noto Serif JP', sans-serif;
+}
+p{
+  font-size: 1.5em;
+  padding-left: 4em;
+  padding-right: 4em;
+  line-height: 1.5;
+  padding-top: 1em;
+}
+
+h1{
+font-family: 'Work Sans', sans-serif;
+font-size: 2.2em;
+padding: 0.5em;
+margin: 0;
+height: 10vh;
+text-align: center;
+/*color: rgb(255, 215, 0);*/
+color: white;
+background-color: black;
+letter-spacing: 3px;
+}
+h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding:0.7em;
+  padding-top: 1.5em;
+  margin: 0;
+
+}
+img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+  Height: 50px;
+margin-top: 40px;
+}
+
+ul{list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.header{
+
+}
+.intro{
+  height: 90vh;
+  background-color: rgb(255, 215, 0);
+}
+.footer{}
