@@ -4,31 +4,34 @@ body{
   font-family: 'Noto Serif JP', sans-serif;
 }
 p{
-  font-size: 1.5em;
+  font-size: 2vw;
   padding-left: 4em;
   padding-right: 4em;
   line-height: 1.5;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
-
+.header{
+height: 10vh;
+margin: 0;
+background-color: black;
+padding: 0.5em;
+}
 h1{
 font-family: 'Work Sans', sans-serif;
-font-size: 2.2em;
-padding: 0.5em;
-margin: 0;
-height: 10vh;
+font-size: 2.5vw;
+color: white;
 text-align: center;
 /*color: rgb(255, 215, 0);*/
-color: white;
-background-color: black;
-letter-spacing: 3px;
+letter-spacing: 4px;
+padding: auto;
 }
 h2{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2em;
+  /*font-family: 'Source Sans Pro', sans-serif;*/
+font-family: 'Roboto Slab', serif;
+  font-size: 2.8vw;
   text-align: center;
-  padding:0.7em;
-  padding-top: 1.5em;
+  padding:0.8em;
+
   margin: 0;
 
 }
@@ -46,11 +49,13 @@ ul{list-style-type: none;
 a{
   text-decoration: none;
 }
-.header{
 
-}
 .intro{
+  padding-top: 2vh;
   height: 90vh;
   background-color: rgb(255, 215, 0);
+}
+.menu{
+  height: 100vh;
 }
 .footer{}
