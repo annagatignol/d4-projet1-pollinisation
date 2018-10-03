@@ -34,7 +34,9 @@ font-family: 'Roboto Slab', serif;
 
   margin: 0;
 
+
 }
+
 img{
   display: block;
     margin-left: auto;
@@ -44,11 +46,10 @@ img{
 margin-top: 40px;
 }
 
-ul{list-style-type: none;
-}
-a{
-  text-decoration: none;
-}
+
+
+
+
 
 .intro{
   padding-top: 2vh;
@@ -56,6 +57,52 @@ a{
   background-color: rgb(255, 215, 0);
 }
 .menu{
-  height: 100vh;
+  height: 90vh;
+  display: flex;
+
+  background-image: url("../image/fond-menu2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top;
 }
-.footer{}
+#pastille {
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  margin: 20vh auto;
+  padding: 20px;
+}
+img#pastille:hover{
+  width: 300px;
+  height: 300px;
+}
+.footer{
+  height: 10vh;
+
+  background-color: rgb(255, 215, 0);
+
+}
+ul{list-style-type: none;
+}
+li{
+  display: inline-block;
+
+padding-top: 20px;
+padding-bottom: 10px;
+margin-left: 20px;
+}
+a{text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+font-size: 0.8em;
+
+
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+font-size: 0.9em;
+
+}
