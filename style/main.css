@@ -59,7 +59,6 @@ margin-top: 40px;
 .menu{
   height: 90vh;
   display: flex;
-
   background-image: url("../image/fond-menu2.svg");
   background-repeat: no-repeat;
   background-size: cover;

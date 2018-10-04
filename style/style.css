@@ -84,50 +84,68 @@ font-family: 'Roboto Slab', serif;
   margin:0 auto;
 }
 
-#categories div h1, #categories div p{
+ #categories div p{
   width:90%;
+  height: 100%;
   padding:0 5%;
-  background-color:rgb(255, 215, 0); background-color: rgba(0, 0, 0, 0.6);
-  font-family: 'Raleway', sans-serif;
+  background-color:rgb(255, 215, 0); background-color: rgba(0, 0, 0, 0.7);
+  font-family: 'Source Sans Pro', sans-serif;
 
   -webkit-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
   -ms-transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
   transition: top .2s ease-out, bottom .2s ease-out, .2s padding .2s ease-out;
 }
-#categories li h1{
-  bottom:110%;
-  font-weight:normal;
-  font-size:1.5em;
-  padding-top:100%;
-  padding-bottom:100%;
-}
-#categories li h1:after{
-	content:'';
-  display:block;
-  position:absolute;
-  bottom:-1px; left:45%;
-  width:10%;
-  text-align:center;
-  z-index:1;
-  border-bottom:2px solid #fff;
-}
+
 #categories li p{
 	padding-top:50%;
-	top:110%;
-	padding-bottom:50%;
+	top:100%;
+	/*padding-bottom:50%;*/
+  font-size: 1.2em;
+  line-height: 1.2;
 }
 
 
 /* HOVER EFFECT  */
 
-#categories li div:hover h1 {
-  bottom:50%;
-  padding-bottom:10%;
-}
+
 
 #categories li div:hover p{
-  top:50%;
-  padding-top:0;
+  top:0%;
+  padding-top:50%;
+}
+
+.explicatif{
+  height: 90vh;
+}
+.footer{
+  height: 10vh;
+
+  background-color: rgb(255, 215, 0);
+
+}
+.footer ul{list-style-type: none;
+}
+.footer li{
+  display: inline-block;
+
+padding-top: 20px;
+padding-bottom: 10px;
+margin-left: 20px;
+}
+.footer a{text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+font-size: 0.8em;
+
+
+}
+.footer a:hover{
+    text-decoration: underline;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+font-size: 0.9em;
+
 }
 /*#fork{
   position:fixed;
