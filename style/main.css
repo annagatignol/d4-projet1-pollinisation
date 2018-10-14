@@ -125,3 +125,32 @@ a:hover{
   width: 60px;
   height: 60px;
 }
+.video{
+  height: 100vh;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+
+
+}
+#retour {
+  text-transform: uppercase;
+  color: rgb(255, 215, 0);
+  font-family: 'Work Sans', sans-serif;
+  text-decoration: none;
+font-size: 1em;
+padding-top: 5vh;
+}
+#retour:hover{
+  color: white;
+}
+video{
+  min-height: 100px;
+  min-width: 200px;
+  max-height: 500px;
+  max-width: 600px;
+
+}
