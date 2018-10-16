@@ -159,6 +159,11 @@ min-height: 20px;
   line-height: 1.2;
 }
 
+#categories li a {
+  position: static;
+}
+
+
 
 /* HOVER EFFECT  */
 
