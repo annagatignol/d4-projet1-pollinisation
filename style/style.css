@@ -18,9 +18,11 @@ justify-content: center;
 }
 h1{
 font-family: 'Work Sans', sans-serif;
-font-size: 3vh;
+font-size: 1.3em;
 color: black;
 text-align: center;
+display: flex;
+flex-wrap: wrap;
 
 /*color: rgb(255, 215, 0);*/
 letter-spacing: 4px;
@@ -29,41 +31,44 @@ letter-spacing: 4px;
 h2{
   /*font-family: 'Source Sans Pro', sans-serif;*/
 font-family: 'Work Sans', sans-serif;
-  font-size: 2.8vh;
+  font-size: 1.5em;
   letter-spacing: 2px;
 background-color: black;
   padding:0.8em;
 text-transform: uppercase;
 color: white;
 text-align: center;
-  margin-bottom: 5vh;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
 height: 3vh;
 }
 
   h3{font-family: 'Roboto Slab', serif;
-  font-size: 3.5vh;
+  font-size: 1.4em;
   line-height: 1.6;
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 7vw;
+  padding-right: 7vw;
+margin: 0;
+padding-bottom: 0;
+display: flex;
+flex-wrap: wrap;
 text-align: center;
-
-
+justify-content: center;
   }
   .explicatif{
     height: 90vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
+    align-items: center;
+position:sticky;
   }
 
   }
-  #icone {
-    width: 60px;
-    height: 60px;
-    min-width: 20px;
-min-height: 20px;
-  }
+
 
 *{
   margin:0;
@@ -73,7 +78,7 @@ min-height: 20px;
 #categories{
   overflow:hidden;
   width:75%;
-  margin:0 auto;
+  margin:2em auto;
 
 }
 .clr:after{
@@ -228,10 +233,36 @@ font-size: 1em;
 
 }
 img{
-  display: block;
-    margin-left: auto;
+padding-top: 0;
+   margin-left: auto;
     margin-right: auto;
     width: 50px;
   Height: 50px;
-margin-top: 40px;
 }
+
+#lien:hover{color: white;
+  font-size: 1em;
+}
+
+@media screen and (max-width:800px) {
+  h3{ font-size: 1.1em;}
+  h2{font-size: 1.2em;}
+    h1{ font-size: 1em;}
+    .header{
+      height: 6vh;}
+  img{height: 45px;
+    width: 45px;}
+  }
+
+    @media screen and (max-width:500px) {
+  h3{ font-size: 0.9em;
+  margin: 0 1.5vw;}
+  h2{font-size: 0.8em;}
+    h1{ font-size: 0.7em;}
+    .header{
+      height: 4vh;
+    }
+     img{height: 30px;
+      width: 30px;}
+
+  }

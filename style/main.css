@@ -52,6 +52,7 @@ margin-top: 40px;
 .intro{
   display: flex;
   align-items: center;
+  justify-content: space-around;
 flex-direction: column;
 flex-wrap: wrap;
   height: 90vh;
@@ -96,7 +97,7 @@ ul{list-style-type: none;
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  margin: 0;
+  margin: auto;
   padding-left: 1vw;
   padding-right: 1vw;
 }
@@ -153,3 +154,24 @@ video{
   max-width: 600px;
 
 }
+@media screen and (max-width:800px) {
+p{font-size: 1.1em;}
+    h1{ font-size: 1em;}
+    .header{
+      height: 8vh;
+    }
+  #icone{height: 45px;
+  width: 45px;
+
+    }}
+    @media screen and (max-width:500px) {
+  p{ font-size: 0.9em;
+  margin: 0 1.5vw;}
+
+    h1{ font-size: 0.8em;}
+    .header{
+      height: 6vh;
+    }
+    #icone {height: 30px;
+    width: 30px;}
+  }
